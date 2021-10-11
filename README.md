@@ -16,8 +16,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [My Solution](https://goldenpheonix02.github.io/order-component-frontend-mentor/)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [My Solution](https://www.frontendmentor.io/solutions/order-summary-component-page-3hR96nj2f)
+- Live Site URL: [Live Site](https://goldenpheonix02.github.io/order-component-frontend-mentor/)
 
 
 ### Built with

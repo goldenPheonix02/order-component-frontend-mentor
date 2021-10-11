@@ -127,9 +127,7 @@ button:hover{
 @media (max-width:800px){
     .card{
         width:330px;
-        /* min-width:300px; */
         left:21%;
-        /* height: 80%; */
         line-height: 1.7;
         top:10%;
         padding-bottom: 0px;
