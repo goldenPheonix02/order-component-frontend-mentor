@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+*{
+    font-family: 'Red Hat Display', sans-serif;
+}
+body,html{margin:0;background-color: hsl(225, 100%, 94%);overflow: hidden;}
+.bg{
+    position:absolute;
+    z-index:-1;
+    transform: scaleX(1.15);
+}
+.card{
+    display: grid;
+    width:25%;
+    height: auto;
+    background-color: #fff;
+    position: absolute;
+    z-index: 0;
+    border-radius: 15px;
+    top:13%;
+    left:36%;
+    overflow: hidden;
+    right:36%;
+    object-fit: contain;
+    text-align: center;
+    box-shadow: 0px 15px 60px -15px hsl(245, 75%, 52%,.3);
+                /* 0px 0px 40px 10px hsl(245, 75%, 52%,.2); */
+}
+p{
+    overflow-wrap: break-word;
+    width: 97%;
+    margin: 5% auto 10%;
+    font-size:15px;
+    font-weight: 400;
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+    /* color: hsl(223, 47%, 23%);
+    color: hsl(225, 100%, 98%); */
+}
+h2{
+    font-weight: 900;
+    color:hsl(223, 47%, 23%);
+    margin-bottom: 0;
+}
+.head{
+    width:100%;padding: 0;
+}
+img[alt='F']{
+    width: 100%;
+    height: 100%;
+}
+@media (max-width:900px){
+    .card{
+        width:300px;
+        left:21%;
+    }
+}
+
+.content{
+    padding:1% 10% 10%;
+}
+.charge{
+    background-color: hsl(225, 100%, 98%);
+    padding:4% 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 13px;
+}
+.charge>div:nth-child(2){
+    flex:2;
+    text-align: left;
+    font-size: 15px;
+    color:hsl(223, 47%, 23%);
+    font-weight: 900;
+    line-height: 1.6;
+}
+.charge>div:nth-child(1){
+    flex:1;
+    padding-top:3%;
+}
+.charge>div:nth-child(3){
+    text-align: right;
+    font-size: 13px;
+    padding-right: 2%;
+    text-decoration: none;
+    flex:1;
+}
+a{
+    color:hsl(245, 75%, 52%,2);
+    font-weight: 800;
+}
+a:hover{
+    text-decoration: none;
+    color:hsl(245, 75%, 52%,0.8) ; 
+}
+span{
+    font-weight: 500;
+    font-size: 14px;
+    color: hsl(224, 23%, 55%);
+}
+button{
+    display: block;
+    margin:9% auto 9%;
+    width:100%;
+    font-weight: 700;
+    padding:4% 0;
+    border-radius: 10px;
+    border:0px hsl(245, 75%, 52%) solid;
+    color:#fff;
+    background-color:hsl(245, 75%, 52%);
+    box-shadow: 0px 15px 30px -15px hsl(245, 75%, 52%,.8);
+}
+button:hover{
+    cursor: pointer;
+    background-color:hsl(245, 75%, 52%,0.6) ;
+}
+
+.cancel{
+    color:hsl(224, 23%, 55%);
+    font-weight: 900;
+    font-size: 13px;
+}
+.cancel:hover{
+    cursor: pointer;
+    color:hsl(223, 47%, 23%);
+}
+@media (max-width:800px){
+    .card{
+        width:330px;
+        left:21%;
+        /* height: 80%; */
+        line-height: 1.7;
+        top:10%;
+        padding-bottom: 0px;
+    }
+    p{
+        width:100%;
+        font-weight: 500;
+    }
+    button{
+        padding:6% 0;
+    }
+    .cancel{
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+    .charge>div:nth-child(2){
+        padding-left: 5%;
+    }
+    .content{
+        padding-bottom: 8%;
+    }
+}
