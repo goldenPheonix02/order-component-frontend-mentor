@@ -2,7 +2,7 @@
 *{
     font-family: 'Red Hat Display', sans-serif;
 }
-body,html{margin:0;background-color: hsl(225, 100%, 94%);overflow: hidden;}
+body,html{margin:0;background-color: hsl(225, 100%, 94%);overflow-x: hidden;}
 .bg{
     position:absolute;
     z-index:-1;
