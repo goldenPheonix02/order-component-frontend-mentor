@@ -14,13 +14,13 @@ body,html{
 }
 .card{
     display: grid;
-    width:25%;
+    max-width:90%;
     height: auto;
     background-color: #fff;
     position: absolute;
     z-index: 0;
     border-radius: 15px;
-    top:13%;
+    top:11%;
     left:36%;
     overflow: hidden;
     right:36%;
@@ -54,7 +54,7 @@ img[alt='F']{
 }
 @media (max-width:900px){
     .card{
-        width:300px;
+        /* width:300px; */
         left:21%;
     }
 }
@@ -131,6 +131,7 @@ button:hover{
 @media (max-width:800px){
     .card{
         width:330px;
+        /* max-width: 70%; */
         left:21%;
         line-height: 1.7;
         top:10%;
